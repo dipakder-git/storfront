@@ -1,6 +1,6 @@
 mountpoints:
   /:
-    url: https://content.da.live/dipakder-git/storefront/
+    url: https://github.com/{org}/{site}
     type: markup
 
 folders:
