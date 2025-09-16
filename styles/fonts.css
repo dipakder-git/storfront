@@ -48,22 +48,6 @@
 
 @font-face {
     font-family: adobe-clean;
-    src: url('../fonts/adobe-clean-normal-700.woff2') format('woff2');
-    font-display: swap;
-    font-style: italic;
-    font-weight: 900;
-}
-
-@font-face {
-    font-family: adobe-clean;
-    src: url('../fonts/adobe-clean-normal-700.woff2') format('woff2');
-    font-display: swap;
-    font-style: italic;
-    font-weight: 800;
-}
-
-@font-face {
-    font-family: adobe-clean;
     src: url('../fonts/adobe-clean-italic-400.woff2') format('woff2');
     font-display: swap;
     font-style: italic;
@@ -72,7 +56,7 @@
 
 @font-face {
     font-family: adobe-clean;
-    src: url('../fonts/adobe-clean-normal-400.woff2') format('woff2');
+    src: url('../fonts/adobe-clean-normal-500.woff2') format('woff2');
     font-display: swap;
     font-style: normal;
     font-weight: 500;
