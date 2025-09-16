@@ -157,8 +157,24 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Hide body until JavaScript adds .appear class, with fallback */
 body:not(.appear) {
   display: none;
+}
+
+/* Fallback: show content after 3 seconds if JS hasn't loaded */
+body {
+  animation: showContent 0.1s ease-in-out 3s forwards;
+}
+
+body.appear {
+  display: grid;
+  animation: none;
+}
+
+@keyframes showContent {
+  from { display: none; }
+  to { display: grid; }
 }
 
 header {
